@@ -1,0 +1,26 @@
+.menu {
+  &__list {
+    display: flex;
+    gap: 25px;
+  }
+  &__link {
+    color: #222;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 1px;
+      width: 0;
+      transition: 0.2s;
+      background: #222;
+    }
+    &:hover {
+      color: inherit;
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

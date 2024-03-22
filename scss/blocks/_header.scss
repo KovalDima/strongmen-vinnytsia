@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid #222;
+  &__top {
+    background: #111;
+    padding: 15px 0;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  &__contacts {
+    display: flex;
+    gap: 60px;
+  }
+  &__contacts-link {
+    padding-left: 36px;
+    background: url(../icons/location.svg) left center / 33px no-repeat;
+    font-size: 18px;
+    &--tel {
+      background-image: url(../icons/phone.svg);
+      font-size: 17px;
+    }
+    &--email {
+      background-image: url(../icons/email.svg);
+    }
+  }
+  &__bottom {
+    padding: 15px 0;
+  }
+  &__time {
+    font-size: 17px;
+  }
+}

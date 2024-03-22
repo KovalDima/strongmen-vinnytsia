@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tiktok 1" clip-path="url(#clip0_31_459)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M16 0C24.8369 0 32 7.12068 32 15.9052C32 24.6897 24.8369 31.8104 16 31.8104C7.16313 31.8104 0 24.6897 0 15.9052C0 7.12068 7.16313 0 16 0Z" fill="url(#paint0_linear_31_459)"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M19.5937 6.58633C19.5943 6.87089 19.6787 10.987 24.0231 11.2436C24.0231 12.4302 24.0243 13.2907 24.0243 14.4234C23.6956 14.442 21.1643 14.2593 19.5887 12.8627L19.5837 19.0533C19.6437 23.3501 16.4631 25.9646 12.305 25.0612C5.1356 22.9295 7.5181 12.3594 14.7168 13.4902C14.7168 16.903 14.7187 13.4896 14.7187 16.903C11.745 16.4681 10.75 18.9271 11.5406 20.6885C12.2593 22.2915 15.2206 22.6388 16.2537 20.3772C16.3706 19.9349 16.4287 19.4298 16.4287 18.8631V6.5708L19.5937 6.58633Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_31_459" x1="4.23938" y1="5.12072" x2="29.5267" y2="24.374" gradientUnits="userSpaceOnUse">
+<stop stop-color="#67C4CE"/>
+<stop offset="1" stop-color="#E62A58"/>
+</linearGradient>
+<clipPath id="clip0_31_459">
+<rect width="32" height="31.8104" fill="white"/>
+</clipPath>
+</defs>
+</svg>

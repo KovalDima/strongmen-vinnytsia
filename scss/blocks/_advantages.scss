@@ -1,0 +1,40 @@
+.advantages {
+  padding: 80px 0 90px;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  &__item {
+    padding: 6.95vw 25px 25px;
+    font-size: 1.25vw;
+    background: #f1f3f9;
+    background-position: center top 24px;
+    background-size: 4.1vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: -6px 6px 20px 1px rgba(2, 2, 2, 0.08);
+    }
+    &--1 {
+      background-image: url(../icons/advantages/protect.svg);
+    }
+    &--2 {
+      background-image: url(../icons/advantages/safe.svg);
+    }
+    &--3 {
+      background-image: url(../icons/advantages/time.svg);
+    }
+    &--4 {
+      background-image: url(../icons/advantages/heart.svg);
+    }
+    &--5 {
+      background-image: url(../icons/advantages/discount.svg);
+    }
+    &--6 {
+      background-image: url(../icons/advantages/partnership.svg);
+    }
+  }
+}
