@@ -20,6 +20,16 @@ body {
   background: #fafafa;
 }
 
+section {
+  padding: 100px 0;
+}
+
+@media (min-width: 1800px) {
+  section {
+    padding: 5.5vw 0;
+  }
+}
+
 h6,
 h5,
 h4,
@@ -32,8 +42,9 @@ h1 {
 }
 
 h1 {
-  font-size: 3.8vw; // 55
+  font-size: 3.5vw;
   margin-bottom: 40px;
+  text-wrap: nowrap;
 }
 
 h2 {

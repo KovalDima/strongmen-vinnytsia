@@ -1,5 +1,4 @@
 .advantages {
-  padding: 80px 0 90px;
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,7 +6,7 @@
   }
   &__item {
     padding: 6.95vw 25px 25px;
-    font-size: 1.25vw;
+    font-size: 1.15vw;
     background: #f1f3f9;
     background-position: center top 24px;
     background-size: 4.1vw;

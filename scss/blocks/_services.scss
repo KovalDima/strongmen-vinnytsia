@@ -1,5 +1,4 @@
 .services {
-  padding: 100px 0;
   background-color: #222;
   color: #fafafa;
   &__list {
@@ -9,7 +8,7 @@
     li {
       padding: 1vw 1.5vw;
       border: 2px solid #fafafa;
-      font-size: 1.05vw;
+      font-size: 1vw;
       transition: 0.1s;
       &:hover {
         background: #fafafa;

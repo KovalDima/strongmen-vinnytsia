@@ -1,11 +1,12 @@
 .promo {
   border-bottom: 1px solid #222;
+  padding: 0;
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   &__content {
-    padding: 2vw 5.5vw;
+    padding: 2vw 7.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +17,7 @@
     margin-top: -75px;
   }
   &__text {
-    font-size: 1.2vw;
+    font-size: 1.15vw;
   }
   &__images {
     height: calc(100vh - 124px);
