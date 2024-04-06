@@ -1,0 +1,27 @@
+.cost {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 35px;
+  }
+
+  &__item {
+    background: #f1f3f9;
+    padding: 35px 45px;
+    border-radius: 10px;
+    &-head {
+      margin-bottom: 65px;
+    }
+  }
+
+  &__item-caption {
+    text-align: center;
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  &__item-descr {
+    font-size: 1vw;
+  }
+}
