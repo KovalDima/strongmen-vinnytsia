@@ -39,7 +39,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Strongmen Vinnytsia</title>
+    <title>Strongmen Vinnytsia - Вантажники з Вінниці</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link
@@ -48,6 +48,7 @@
     />
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
+  <!-- form validation -->
   <!-- title for links -->
   <!-- give links for a -->
   <!-- alt for images / names for images -->
@@ -60,6 +61,8 @@
   <!-- fix favicons -->
   <!-- page up -->
   <!-- call button -->
+  <!-- mobile adaptation -->
+  <!-- add into google search -->
   <body>
     <header class="header">
       <div class="header__top">
@@ -167,7 +170,7 @@
                   <a href="#testimonials" class="menu__link">Відгуки</a>
                 </li>
                 <li class="menu__item">
-                  <a href="" class="menu__link">Виконані роботи</a>
+                  <a href="#gallery" class="menu__link">Виконані роботи</a>
                 </li>
                 <li class="menu__item">
                   <a href="#questions" class="menu__link">Часті питання</a>
@@ -193,6 +196,7 @@
               як для себе. Нас в команді більше 200 чоловік, тому кількість
               людей не проблема!
             </p>
+            <a href="#order" class="btn">Замовити послугу</a>
           </div>
           <div class="promo__images">
             <img src="./images/promo/promo-1.jpeg" alt="" class="promo__img" />
@@ -302,8 +306,80 @@
           </div>
         </div>
       </section>
-      <!-- gallery -->
-      <!-- order form -->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2>Виконані роботи</h2>
+        </div>
+      </section>
+      <section class="order" id="order">
+        <div class="container">
+          <h2>Замовити послугу</h2>
+          <form action="#" class="order__form">
+            <div class="order__form-inner">
+              <input
+                class="order__form-input"
+                type="text"
+                name="name"
+                placeholder="Як до вас звертатись?"
+              />
+              <input
+                class="order__form-input"
+                type="number"
+                name="tel"
+                placeholder="Ваш номер телефону"
+              />
+              <input
+                class="order__form-input order__form-input--wide"
+                type="text"
+                name="address"
+                placeholder="Адреса виконання робіт"
+              />
+              <input
+                class="order__form-input order__form-input--wide"
+                type="text"
+                name="additional-address"
+                placeholder="Додаткова адреса (за необхідності)"
+              />
+              <label class="order__form-label">
+                Дата приїзду вантажників
+                <input
+                  class="order__form-input"
+                  type="date"
+                  name="date"
+                  placeholder="Дата приїзду вантажників"
+                />
+              </label>
+              <label class="order__form-label">
+                Час приїзду вантажників
+                <input
+                  class="order__form-input"
+                  type="time"
+                  name="time"
+                  placeholder="Час приїзду вантажників"
+                />
+              </label>
+              <input
+                class="order__form-input"
+                type="text"
+                name="floor"
+                placeholder="Поверх виконання робіт (за необхідності)"
+              />
+              <input
+                class="order__form-input"
+                type="number"
+                name="quantity"
+                placeholder="Кількість вантажників"
+              />
+              <textarea
+                class="order__form-input order__form-input--wide order__form-input--high"
+                name="description"
+                placeholder="Що потрібно зробити/перенести? (Вкажіть перелік робіт/вантажу)"
+              ></textarea>
+            </div>
+            <button class="btn btn--white">Замовити</button>
+          </form>
+        </div>
+      </section>
       <section class="testimonials" id="testimonials">
         <div class="container">
           <h2>Відгуки</h2>
