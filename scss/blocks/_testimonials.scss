@@ -1,0 +1,28 @@
+.testimonials {
+  .swiper-slide {
+    height: auto;
+  }
+  &__slider {
+    cursor: grab;
+  }
+  &__img {
+    background: #000000;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 14px;
+  }
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    .swiper-pagination-bullet {
+      background: #262626;
+      display: inline-block;
+      transition: 0.1s;
+      &-active {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
