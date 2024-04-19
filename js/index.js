@@ -1,3 +1,10 @@
+pageUp();
+accordion(".questions__item-head");
+
+// auto copyrigth year
+const year = document.querySelector(".footer__copy span");
+year.textContent = new Date().getFullYear();
+
 // testimonials slider
 const testimonialsSlider = new Swiper(".testimonials__slider", {
   slidesPerView: 3.3,
@@ -13,7 +20,26 @@ const testimonialsSlider = new Swiper(".testimonials__slider", {
   },
 });
 
-accordion(".questions__item-head");
+// functions
+
+function pageUp() {
+  const pageUp = document.querySelector(".page-up");
+
+  window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > window.innerHeight) {
+      pageUp.classList.add("show");
+    } else {
+      pageUp.classList.remove("show");
+    }
+  });
+
+  pageUp.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+}
 
 function accordion(className) {
   let accBtn = document.querySelectorAll(className);
@@ -32,7 +58,3 @@ function accordion(className) {
     });
   }
 }
-
-// auto copyrigth year
-const year = document.querySelector(".footer__copy span");
-year.textContent = new Date().getFullYear();

@@ -1,0 +1,44 @@
+.page-up {
+  width: 30px;
+  height: 30px;
+  background: #fafafa;
+  cursor: pointer;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  visibility: hidden;
+  opacity: 0;
+  user-select: none;
+  transition: 0.2s;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 48%;
+    background: #222;
+    height: 9%;
+    top: 50%;
+    border-radius: 0px;
+    transition: 0.2s;
+  }
+  &::before {
+    right: 43%;
+    transform: translate(4%, -50%) rotate(-45deg);
+  }
+  &::after {
+    left: 43%;
+    transform: translate(-4%, -50%) rotate(45deg);
+  }
+  &:hover {
+    background: #222;
+    &::before,
+    &::after {
+      background: #fafafa;
+    }
+  }
+  &.show {
+    visibility: visible;
+    opacity: 1;
+    user-select: auto;
+  }
+}
