@@ -1,3 +1,35 @@
 .gallery {
-  background: #f7f7f7;
+  background: #222;
+  color: #fafafa;
+  &__slider {
+    .gallery__slide {
+      gap: 5px;
+      .gallery__img {
+        width: calc(50% - 2.5px);
+      }
+    }
+  }
+  &__slider-thumbs {
+    margin-top: 10px;
+    cursor: pointer;
+    .gallery__slide {
+      opacity: 0.5;
+      gap: 1.5px;
+      .gallery__img {
+        width: calc(50% - 0.75px);
+      }
+    }
+    .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+  }
+  &__slide {
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #e1e1e1;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+  }
 }

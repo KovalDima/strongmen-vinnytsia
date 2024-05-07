@@ -1,0 +1,25 @@
+.order-link {
+  width: 34px;
+  height: 34px;
+  background: #fafafa url(../icons/order-service.svg) center center/90%
+    no-repeat;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  right: 22px;
+  bottom: 22px;
+  transition: 0.15s;
+  &.above {
+    bottom: 70px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .order-link {
+    width: 2.4vw;
+    height: 2.4vw;
+    &.above {
+      bottom: 4.75vw;
+    }
+  }
+}

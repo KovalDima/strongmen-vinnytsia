@@ -1,15 +1,15 @@
 .page-up {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   background: #fafafa;
   cursor: pointer;
   position: fixed;
-  right: 25px;
-  bottom: 25px;
+  z-index: 99;
+  right: 22px;
+  bottom: 22px;
   visibility: hidden;
   opacity: 0;
   user-select: none;
-  transition: 0.2s;
   &::before,
   &::after {
     content: "";
@@ -19,7 +19,6 @@
     height: 9%;
     top: 50%;
     border-radius: 0px;
-    transition: 0.2s;
   }
   &::before {
     right: 43%;
@@ -29,16 +28,16 @@
     left: 43%;
     transform: translate(-4%, -50%) rotate(45deg);
   }
-  &:hover {
-    background: #222;
-    &::before,
-    &::after {
-      background: #fafafa;
-    }
-  }
   &.show {
     visibility: visible;
     opacity: 1;
     user-select: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page-up {
+    width: 2.4vw;
+    height: 2.4vw;
   }
 }
