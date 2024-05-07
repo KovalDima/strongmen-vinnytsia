@@ -4,11 +4,11 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1600px) {
   .container {
-    width: 86%;
+    width: 80%;
     &--small {
-      width: 72%;
+      width: 70%;
     }
   }
 }

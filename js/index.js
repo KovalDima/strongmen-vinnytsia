@@ -14,6 +14,22 @@ const testimonialsSlider = new Swiper(".testimonials__slider", {
     el: ".testimonials__pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    900: {
+      slidesPerView: 2.4,
+      spaceBetween: 25,
+    },
+    1300: {
+      slidesPerView: 2.8,
+    },
+    1800: {
+      slidesPerView: 3.3,
+    },
+  },
 });
 
 // gallery slider

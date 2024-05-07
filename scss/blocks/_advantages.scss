@@ -6,7 +6,7 @@
   }
   &__item {
     padding: 6.95vw 25px 25px;
-    font-size: 1.15vw;
+    font-size: 17px;
     background: #f1f3f9;
     background-position: center top 24px;
     background-size: 4.1vw;
@@ -34,6 +34,22 @@
     }
     &--6 {
       background-image: url(../icons/advantages/partnership.svg);
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .advantages {
+    &__item {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 2200px) {
+  .advantages {
+    &__item {
+      font-size: 24px;
     }
   }
 }
