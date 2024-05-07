@@ -68,6 +68,7 @@
   <!-- mobile adaptation -->
   <!-- add into google search -->
   <!-- сжать сильно картинки в gallery__slider-thumbs (сделать отдельные) -->
+  <!-- bg for services -->
   <body>
     <header class="header" id="header">
       <div class="header__top">
@@ -554,71 +555,73 @@
       </section>
       <section class="order" id="order">
         <div class="container">
-          <h2>Замовити послугу</h2>
-          <form action="#" class="order__form">
-            <div class="order__form-inner">
-              <input
-                class="order__form-input"
-                type="text"
-                name="name"
-                placeholder="Як до вас звертатись?"
-              />
-              <input
-                class="order__form-input"
-                type="number"
-                name="tel"
-                placeholder="Ваш номер телефону"
-              />
-              <input
-                class="order__form-input order__form-input--wide"
-                type="text"
-                name="address"
-                placeholder="Адреса виконання робіт"
-              />
-              <input
-                class="order__form-input order__form-input--wide"
-                type="text"
-                name="additional-address"
-                placeholder="Додаткова адреса (за необхідності)"
-              />
-              <label class="order__form-label">
-                Дата приїзду вантажників
+          <div class="order__wrapper">
+            <h2>Замовити послугу</h2>
+            <form action="#" class="order__form">
+              <div class="order__form-inner">
                 <input
                   class="order__form-input"
-                  type="date"
-                  name="date"
-                  placeholder="Дата приїзду вантажників"
+                  type="text"
+                  name="name"
+                  placeholder="Як до вас звертатись?"
                 />
-              </label>
-              <label class="order__form-label">
-                Час приїзду вантажників
                 <input
                   class="order__form-input"
-                  type="time"
-                  name="time"
-                  placeholder="Час приїзду вантажників"
+                  type="number"
+                  name="tel"
+                  placeholder="Ваш номер телефону"
                 />
-              </label>
-              <input
-                class="order__form-input"
-                type="text"
-                name="floor"
-                placeholder="Поверх виконання робіт (за необхідності)"
-              />
-              <input
-                class="order__form-input"
-                type="number"
-                name="quantity"
-                placeholder="Кількість вантажників"
-              />
-              <textarea
-                class="order__form-input order__form-input--wide order__form-input--high"
-                name="description"
-                placeholder="Що потрібно зробити/перенести? (Вкажіть перелік робіт/вантажу)"
-              ></textarea>
-            </div>
-            <button class="btn btn--white">Замовити</button>
-          </form>
+                <input
+                  class="order__form-input order__form-input--wide"
+                  type="text"
+                  name="address"
+                  placeholder="Адреса виконання робіт"
+                />
+                <input
+                  class="order__form-input order__form-input--wide"
+                  type="text"
+                  name="additional-address"
+                  placeholder="Додаткова адреса (за необхідності)"
+                />
+                <label class="order__form-label">
+                  Дата приїзду вантажників
+                  <input
+                    class="order__form-input"
+                    type="date"
+                    name="date"
+                    placeholder="Дата приїзду вантажників"
+                  />
+                </label>
+                <label class="order__form-label">
+                  Час приїзду вантажників
+                  <input
+                    class="order__form-input"
+                    type="time"
+                    name="time"
+                    placeholder="Час приїзду вантажників"
+                  />
+                </label>
+                <input
+                  class="order__form-input"
+                  type="text"
+                  name="floor"
+                  placeholder="Поверх виконання робіт (за необхідності)"
+                />
+                <input
+                  class="order__form-input"
+                  type="number"
+                  name="quantity"
+                  placeholder="Кількість вантажників"
+                />
+                <textarea
+                  class="order__form-input order__form-input--wide order__form-input--high"
+                  name="description"
+                  placeholder="Що потрібно зробити/перенести? (Вкажіть перелік робіт/вантажу)"
+                ></textarea>
+              </div>
+              <button class="btn btn--white">Замовити</button>
+            </form>
+          </div>
         </div>
       </section>
       <section class="testimonials" id="testimonials">

@@ -3,10 +3,12 @@
     url(../images/order/bearded-delivery-man-pointing-finger-box.png) left -79px
     bottom -61px / contain no-repeat;
   color: #fafafa;
-  &__form {
+  text-align: center;
+  &__wrapper {
     max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    margin-left: auto;
+  }
+  &__form {
     &-inner {
       display: grid;
       grid-template-columns: 1fr 1fr;
