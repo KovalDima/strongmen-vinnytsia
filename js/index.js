@@ -19,7 +19,7 @@ const testimonialsSlider = new Swiper(".testimonials__slider", {
 // gallery slider
 const galleryThumbs = new Swiper(".gallery__slider-thumbs", {
   spaceBetween: 10,
-  slidesPerView: 5.75,
+  slidesPerView: 6.3,
   freeMode: true,
   watchSlidesProgress: true,
 });

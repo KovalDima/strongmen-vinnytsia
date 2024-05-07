@@ -19,7 +19,17 @@
     width: 2.4vw;
     height: 2.4vw;
     &.above {
-      bottom: 4.75vw;
+      bottom: 4.65vw;
+    }
+  }
+}
+
+@media (min-width: 2200px) {
+  .order-link {
+    width: 2.2vw;
+    height: 2.2vw;
+    &.above {
+      bottom: 4vw;
     }
   }
 }
